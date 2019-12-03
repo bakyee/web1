@@ -2,6 +2,16 @@ body{
   margin:0px;
 }
 
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#grid ol{
+    padding-left:33px;
+  }
+  #grid #article{
+    padding-left:10px;
+  }
   a {
     color:blue;
     text-decoration: underline;
@@ -17,11 +27,7 @@ body{
     border-right:1px solid gray;
     width:100px;
     margin:0px;
-    padding:20px;
-  }
-  #grid{
-        display:grid;
-        grid-template-columns: 150px 1fr;
+    padding:10px;
   }
   @media(max-width:800px){
 
